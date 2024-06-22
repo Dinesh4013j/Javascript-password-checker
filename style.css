@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    
+    border: 2px solid green ;
+    border-radius: 2%;
+    background: linear-gradient(rgb(220, 220, 13) ,rgb(202, 113, 36));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-box input{
+    background-color: aqua;
+    height: 8vh;
+    width: 40vw;
+    font-size: 25px;
+}
+.input-box p{
+    font-size: 35px;
+    display: none;
+}
